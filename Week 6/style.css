@@ -1,0 +1,76 @@
+p {
+  color: 	#E43414;
+  font-family: helvetica;
+}
+
+h1, h2 {
+  font-family: "Bebas Neue";
+}
+
+h2 {
+  font-size:40px;
+}
+
+#views {
+  width: 100vw;
+  height: 60vh;
+  /* overflow: hidden; */
+  margin: 0px;
+  padding: 0px;
+}
+
+#views img {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  bottom: 100px;
+}
+
+#views h1 {
+  z-index: 1;
+  position: relative;
+  font-size: 6vw;
+  top: 45vh;
+  margin: 0 0 0 7vw;
+}
+
+#one, #two, #three {
+  margin-left: 7vw;
+  margin-right: 3vw;
+  margin-bottom: 3vw;
+}
+
+button {
+  background-color:	#EBBD34;
+  font-family: "Bebas Neue";
+  border-radius: 10px;
+  font-size: 30px;
+  margin: 10px;
+  padding: 7px 75px;
+}
+
+button:active {
+  background-color: blue;
+  color: white;
+}
+
+button:hover {
+  border: solid black 3px;
+}
+
+a:link {
+  color: blue;
+}
+
+a:active {
+  color: red;
+}
+
+a:active {
+  color: red;
+}
+
+a:hover {
+  font-size: 120%;
+  color: red;
+}
