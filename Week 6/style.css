@@ -69,7 +69,6 @@ button {
 button:active {
   background-color: #5D4A66;
   color: #CBC3E3;
-  border: #5D4A66 3px;
 }
 
 button:hover {
