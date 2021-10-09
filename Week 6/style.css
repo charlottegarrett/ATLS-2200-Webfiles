@@ -1,14 +1,29 @@
 p {
-  color: 	#E43414;
+  color: #5D4A66; /*dark purple*/
   font-family: helvetica;
 }
 
 h1, h2 {
-  font-family: "Bebas Neue";
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #749C75; /*dark green*/
+  -webkit-text-stroke-width: .01px;
+  -webkit-text-stroke-color: #CBC3E3; /*light purple*/
+  font-family: 'Notable', sans-serif;
+}
+
+body {
+  background-color: #B2BD7E; /*light green*/
 }
 
 h2 {
   font-size:40px;
+  font-family: 'Ranchers';
+  color: #E9D985; /*yellow*/
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #749C75; /*dark green*/
 }
 
 #views {
@@ -29,7 +44,7 @@ h2 {
 #views h1 {
   z-index: 1;
   position: relative;
-  font-size: 6vw;
+  font-size: 5vw;
   top: 45vh;
   margin: 0 0 0 7vw;
 }
@@ -37,40 +52,37 @@ h2 {
 #one, #two, #three {
   margin-left: 7vw;
   margin-right: 3vw;
-  margin-bottom: 3vw;
+  margin-bottom: 10vw;
 }
 
 button {
-  background-color:	#EBBD34;
+  background-color: #CBC3E3; /*light purple*/
+  color: #5D4A66;
   font-family: "Bebas Neue";
-  border-radius: 10px;
+  border-radius: 50px;
+  border-color: #5D4A66;
   font-size: 30px;
   margin: 10px;
   padding: 7px 75px;
 }
 
 button:active {
-  background-color: blue;
-  color: white;
+  background-color: #5D4A66;
+  color: #CBC3E3;
+  border: #5D4A66 3px;
 }
 
 button:hover {
-  border: solid black 3px;
+  border: #5D4A66 3px;
 }
 
 a:link {
   color: blue;
 }
 
-a:active {
-  color: red;
-}
-
-a:active {
-  color: red;
-}
-
 a:hover {
   font-size: 120%;
-  color: red;
+  color: #749C75;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #5D4A66;
 }
