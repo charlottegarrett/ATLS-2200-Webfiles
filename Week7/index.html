@@ -7,16 +7,28 @@
 </head>
 <body>
   <section>
-    <h2>Welcome to the Quote Machine, Click the Button to Generate a Quote!</h2>
+    <h1 id="qtext">Welcome to the Quote Machine, Click the Button to Generate a Quote!</h1>
     <button id="newquote">New Quote</button>
   </section>
 
 
 <script>
-  const quotes = ["When you have a dream, you've got to grab it and never let it go.", "Nothing is impossible. The word itself says I'm possible!", "Don't worry, be happy!", "Life's a journey.", "Be the best version of yourself."];
-  console.log(hello world);
+  const quotes = ["When you have a dream, you've got to grab it and never let it go.", "Don't worry, be happy!", "Life's a journey.", "Be the best version of yourself.", "You got this!", "If you believe in yourself, you will be able to accomplish what you want.", "The way to get started it to quit talking and start doing."];
+  let quotecount = 0;
 
   document.getElementById("newquote").addEventListener("click", buttonClicked);
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("qtext").innerHTML = quotes[quotecount];
+    if(quotecount>=6){
+      quotecount = 0;
+    }else{
+    quotecount++;
+  }
+  }
+
+
+
 </script>
 
 </body>
