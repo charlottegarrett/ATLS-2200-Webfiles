@@ -35,7 +35,7 @@ h1 {
 }
 
 div {
-  border: 1px solid #D2BD96;
+  border: 3px solid #D2BD96;
   display: inline-block;
   font-family: 'Alfa Slab One';
   color: #262626;
@@ -48,5 +48,5 @@ div {
 }
 
 .flexitem2 {
-  flex-grow: 8;
+  flex-grow: 2;
 }
