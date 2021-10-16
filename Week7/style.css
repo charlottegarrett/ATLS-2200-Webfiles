@@ -1,3 +1,52 @@
+section {
+  background-color: #262626;
+  margin: 30vh 20vw;
+  padding: 10vh 10vw;
+  border-radius: 8px;
+}
+
+button {
+  font-family: 'Alfa Slab One';
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float: right;
+  margin-top: 1vh;
+  background-color: #D2BD96;
+  color: #262626;
+}
+
+button:hover {
+  border: #E2E8CE solid 4px;
+}
+
+button:active {
+  color: #c3c6c9;
+}
+
 h1 {
-  color:red;
+  color: #E2E8CE;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+}
+
+#flex {
+  display: flex;
+  margin: 150px;
+}
+
+div {
+  border: 1px solid #D2BD96;
+  display: inline-block;
+  font-family: 'Alfa Slab One';
+  color: #262626;
+  background-color: #E2E8CE;
+  margin-left: 2vw;
+}
+
+.flexitem {
+  flex-grow: 1;
+}
+
+.flexitem2 {
+  flex-grow: 8;
 }
