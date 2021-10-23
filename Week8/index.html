@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <title>Tinker Bell Game</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+
+
+
+  <style>
+
+    h1 {
+      font-size:50px;
+      color: #F56840;
+      font-family: 'Amatic SC', cursive;
+    }
+
+    h3 {
+      color: #366B57;
+      font-family: 'Pacifico', cursive;
+      font-size:30px;
+      font-weight: 100;
+    }
+
+    img {
+      width: 20vw;
+    }
+
+    body {
+      background-color: #D4EEC6;
+    }
+
+    html {
+      border: solid;
+      border-width: 15px;
+      border-color: #CC3025;
+      color: #E9D985;
+      font-family: 'Boogaloo', cursive;
+    }
+
+    button {
+      background-color: #366B57;
+      color: #E9D985;
+      font-family: 'Amatic SC', cursive;
+      border-radius: 300px;
+      border-color: #E9D985;
+      font-size: 30px;
+      margin: 10px;
+      padding: 7px 75px;
+    }
+
+    button:active {
+      background-color: #366B57;
+      color: #E9D985;
+      border-color: #F56840 8px;
+    }
+
+
+  </style>
+</head>
+  <body>
+        <header>
+          <h1>Make Tinkerbell fly home while collecting as many butterflies as you can!</h1>
+          <h3>You won the game!</h3>
+    <p><img src="backgroundreal.jpg" alt="image not found"/></p>
+    <p><img src="tree.png" alt="image not found"/></p>
+    <p><img src="mushroomhouse.jpg" alt="image not found"/>/<p>
+    <p><img src="mushroom.jpg" alt="image not found"/></p>
+    <p><img src="Tinkerbell.jpg" alt="image not found"/></p>
+    <p><img src="butterfly.jpg" alt="image not found"/></p>
+    <p><img src="colorpalette.jpg" alt="image not found"/></p>
+
+  <section>
+    <button id="mybutton">Keys to move Tinkerbell</button>
+  </section>
+
+  <script>
+    console.log("javascript working");
+    document.getElementById("mybutton").addEventListener("click", buttonOne);
+
+
+    function buttonOne(){
+      alert("You're Moving Tinkerbell!");
+      document.getElementById("first").style.color = "#CBC3E3";
+    }
+
+  </script>
+
+<h3>Try again, good luck!</h3>
+
+</body>
+</html>
