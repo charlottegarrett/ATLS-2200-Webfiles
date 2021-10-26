@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+  <title>Tinker Bell Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+  <body>
+
+    <center><h1>Make Tinkerbell fly home while collecting as many butterflies as you can!</h1></center>
+
+    <img id="tinkerbell" src="assets/tinkerbell.png" alt="image not found" class="tinkerbell"/>
+    <img id= "background" src="assets/background.jpg" alt="image not found" class="background"/>
+
+  <section>
+    <center><button id="mybuttonup">Up</button></center>
+    <center><button id="mybuttonright">Right</button></center>
+    <center><button id="mybuttondown">down</button></center>
+    <center><button id="mybuttonleft">left</button></center>
+  </section>
+
+  <script>
+    console.log("javascript working");
+    document.getElementById("mybuttonup").addEventListener("click", buttonup);
+    document.getElementById("mybuttonright").addEventListener("click", buttonright);
+    document.getElementById("mybuttondown").addEventListener("click", buttondown);
+    document.getElementById("mybuttonleft").addEventListener("click", buttonleft);
+
+    let x=0
+    let y=0
+
+
+    function buttonup(){
+      let y=y-20
+    }
+
+    function buttonright(){
+      let x=x+20
+    }
+
+    function buttondown(){
+      let y=y+20
+    }
+
+    function buttonleft(){
+      let x=x-20
+    }
+
+  </script>
+
+  </body>
+</html>
