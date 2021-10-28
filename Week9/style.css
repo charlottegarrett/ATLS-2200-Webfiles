@@ -14,9 +14,12 @@
 }
 
 h1 {
-  font-size:50px;
+  font-size: 50px;
   color: #F56840;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Boogaloo', cursive;
+  /* -webkit-text-stroke-width: .01px;
+  -webkit-text-stroke-color: #366B57;
+  font-family: 'Amatic SC', cursive; */
 }
 
 body {
@@ -24,8 +27,11 @@ body {
 }
 
 html {
-  color: #E9D985;
+  font-size:40px;
+  color: #F56840;
   font-family: 'Boogaloo', cursive;
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #366B57; */
 }
 
 button {
@@ -36,11 +42,12 @@ button {
   border-color: #E9D985;
   font-size: 30px;
   margin: 10px;
-  padding: 7px 75px;
+  padding: 7px 60px;
 }
 
 button:active {
   background-color: #366B57;
   color: #E9D985;
   border-color: #F56840;
+  border-radius: 600px;
 }
