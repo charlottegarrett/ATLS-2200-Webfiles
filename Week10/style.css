@@ -6,18 +6,61 @@ body {
  font-size: 20px;
 }
 
+img {
+  width: 26vw;
+}
+
+h1 {
+  font-size: 50px;
+  color: #FFF8E7;
+  font-family: 'Rampart One', cursive;
+}
+
+h2 {
+  color: #FFF8E7;
+  font-size: 25px;
+  /* font-family: 'Bangers'; */
+  font-family: 'Rampart One', cursive;
+  font-weight: 600;
+}
+
+p {
+  color: #FED5A4;
+  font-family: 'Boogaloo', cursive;
+  font-size: 20px;
+}
+
+html {
+  border: solid;
+  border-width: 50px;
+  border-color: #FFD580;
+  background-color: black;
+}
+
+@media screen and (min-width:700px){
+  #picture {
+    display: block;
+  }
+}
+
+@media screen and (max-width:701px){
+  #picture {
+    display: none;
+  }
+}
+
 /* CSS grid code */
 .wrapper_frame {
   display: grid;
   text-align: center;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 32% 32% 32%;
   grid-gap: 1%;
-  background-color: #fff;
+  background-color: black;
   color: #555;
 }
 
 .box_custom {
-  background-color: #fff;
+  background-color: black;
   color: #555;
   border-radius: 5px;
   padding: 10px;
