@@ -1,0 +1,25 @@
+body {
+  margin: 40px;
+}
+
+#id_1{
+ font-size: 20px;
+}
+
+/* CSS grid code */
+.wrapper_frame {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 1%;
+  background-color: #fff;
+  color: #555;
+}
+
+.box_custom {
+  background-color: #fff;
+  color: #555;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 100%;
+}
